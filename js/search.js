@@ -56,6 +56,7 @@
       const body = el('div', 'body');
       const h = el('h3');
       if (m.lab) h.append(el('span', 'flag-lab', '--lab'), ' ');
+      if (m.special) h.append(el('span', 'flag-lab', '--special'), ' ');
       const a = el('a', '', m.title || d.url);
       a.href = d.url;
       h.append(a);
