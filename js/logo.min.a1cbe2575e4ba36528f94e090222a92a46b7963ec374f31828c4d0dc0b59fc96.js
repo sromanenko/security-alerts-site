@@ -1,0 +1,1 @@
+try{sessionStorage.getItem("logo-typed")?document.documentElement.classList.add("seen"):sessionStorage.setItem("logo-typed","1")}catch{}
